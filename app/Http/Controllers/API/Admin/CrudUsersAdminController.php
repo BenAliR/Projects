@@ -95,7 +95,7 @@ class CrudUsersAdminController extends Controller
             $beautymail->send('emails.emailupdated',  ["data"=>$body], function($message) use( $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
                     ->to($body['email2'] , $body['name'])
                     ->subject("Mise à jour de l'adresse e-mail");
             });
@@ -145,7 +145,7 @@ class CrudUsersAdminController extends Controller
             $beautymail->send('emails.userpasswordupdated',  ["data"=>$body], function($message) use( $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
                     ->to($body['email'] , $body['name'])
                     ->subject("Mot de passe mis à jour");
             });
@@ -250,7 +250,7 @@ class CrudUsersAdminController extends Controller
                 $beautymail = app()->make(Beautymail::class);
                 $beautymail->send('emails.newaccount', ["data" => $body], function ($message) use ($body) {
                     $message
-                        ->from('riadh@zenhosting.pro', 'Zenhosting')
+                        ->from('email@email.com', 'Company')
                         ->to($body['email'], $body['name'])
                         ->subject('Compte administrateur créé!');
                 });

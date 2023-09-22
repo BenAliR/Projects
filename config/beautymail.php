@@ -10,7 +10,7 @@ return [
     ],
 
     'view' => [
-        'senderName'  => 'Zenhosting',
+        'senderName'  => 'Company',
         'reminder'    => null,
         'unsubscribe' => null,
         'address'     => 'Bureau 504 ,Imm Louzir ,

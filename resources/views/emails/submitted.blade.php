@@ -136,7 +136,7 @@
                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
-                                                            <a href="https://www.zenhosting.tn/" target="_blank">
+                                                            <a href="https://www.Company.tn/" target="_blank">
                                                                 <img align="center" border="0" src="{{ asset('images/image-5.png') }}"  alt="Logo" title="Logo" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 169px;" width="169"/>
                                                             </a>
                                                         </td>
@@ -219,7 +219,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-                                                            <img align="center" border="0" src="{{ asset('images/confirmation.jpg') }}"  alt="Bienvenue chez Zenhosting" title="Bienvenue chez Zenhosting" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;" width="600"/>
+                                                            <img align="center" border="0" src="{{ asset('images/confirmation.jpg') }}"  alt="Bienvenue chez Company" title="Bienvenue chez Company" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;" width="600"/>
 
                                                         </td>
                                                     </tr>
@@ -329,7 +329,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-                                                            <img align="center" border="0" src="{{ asset('images/image-8.png') }}"   alt="Bienvenue chez Zenhosting" title="Bienvenue chez Zenhosting" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 158px;" width="158"/>
+                                                            <img align="center" border="0" src="{{ asset('images/image-8.png') }}"   alt="Bienvenue chez Company" title="Bienvenue chez Company" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 158px;" width="158"/>
 
                                                         </td>
                                                     </tr>
@@ -361,7 +361,7 @@
 
                                                 <div style="line-height: 140%; text-align: center; word-wrap: break-word;">
                                                     <p style="font-size: 14px; line-height: 140%;"><strong><span style="font-size: 18px; line-height: 25.2px;">☞</span></strong>&nbsp;DÉCOUVREZ NOS OFFRES D'HÉBERGEMENT & CLOUD</p>
-                                                    <p style="font-size: 14px; line-height: 140%;"><strong><span style="font-size: 18px; line-height: 25.2px;">☞</span></strong> POURQUOI HÉBERGER VOTRE SITE WEB CHEZ ZENHOSTING ?</p>
+                                                    <p style="font-size: 14px; line-height: 140%;"><strong><span style="font-size: 18px; line-height: 25.2px;">☞</span></strong> POURQUOI HÉBERGER VOTRE SITE WEB CHEZ Company ?</p>
                                                 </div>
 
                                             </td>
@@ -375,8 +375,8 @@
                                             <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
 
                                                 <div align="center">
-                                                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;font-family:arial,helvetica,sans-serif;"><tr><td style="font-family:arial,helvetica,sans-serif;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.zenhosting.tn/" style="height:46px; v-text-anchor:middle; width:146px;" arcsize="54.5%" stroke="f" fillcolor="#4242e2"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
-                                                    <a href="https://www.zenhosting.tn/" target="_blank" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #4242e2; border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
+                                                    <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;font-family:arial,helvetica,sans-serif;"><tr><td style="font-family:arial,helvetica,sans-serif;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.Company.tn/" style="height:46px; v-text-anchor:middle; width:146px;" arcsize="54.5%" stroke="f" fillcolor="#4242e2"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
+                                                    <a href="https://www.Company.tn/" target="_blank" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #4242e2; border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
                                                         <span style="display:block;padding:15px 30px;line-height:120%;"><strong>Consultez</strong></span>
                                                     </a>
                                                     <!--[if mso]></center></v:roundrect></td></tr></table><![endif]-->
@@ -441,7 +441,7 @@
                                                         <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
                                                         <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
                                                             <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                                                    <a href="https://www.facebook.com/Zenhosting.tn/" title="Facebook" target="_blank">
+                                                                    <a href="https://www.facebook.com/Company.tn/" title="Facebook" target="_blank">
                                                                         <img src="{{ asset('images/image-1.png') }}"  alt="Facebook" title="Facebook" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                                                     </a>
                                                                 </td></tr>
@@ -451,7 +451,7 @@
                                                         <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
                                                         <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
                                                             <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                                                    <a href="https://twitter.com/zenhostingtn" title="Twitter" target="_blank">
+                                                                    <a href="https://twitter.com/Companytn" title="Twitter" target="_blank">
                                                                         <img src="{{ asset('images/image-2.png') }}" alt="Twitter" title="Twitter" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                                                     </a>
                                                                 </td></tr>
@@ -461,7 +461,7 @@
                                                         <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
                                                         <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
                                                             <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                                                    <a href="https://www.linkedin.com/company/zenhosting.tn" title="LinkedIn" target="_blank">
+                                                                    <a href="https://www.linkedin.com/company/Company.tn" title="LinkedIn" target="_blank">
                                                                         <img src="{{ asset('images/image-4.png') }}"   alt="LinkedIn" title="LinkedIn" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                                                     </a>
                                                                 </td></tr>
@@ -512,7 +512,7 @@
                                             <td style="overflow-wrap:break-word;word-break:break-word;padding:0px 10px 10px;font-family:arial,helvetica,sans-serif;" align="left">
 
                                                 <div style="line-height: 140%; text-align: center; word-wrap: break-word;">
-                                                    <p style="font-size: 14px; line-height: 140%;">+216 73 369 270 | contact@zenhosting.tn</p>
+                                                    <p style="font-size: 14px; line-height: 140%;">+216 73 369 270 | contact@Company.tn</p>
                                                 </div>
 
                                             </td>

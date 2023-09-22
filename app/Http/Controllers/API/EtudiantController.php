@@ -32,7 +32,7 @@ class EtudiantController extends Controller
      public $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
     public $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
     public $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
-    public $url = 'https://c.education.zenhosting.tn/includes/api.php';
+    public $url = 'https://c.education.Company.tn/includes/api.php';
 
     /**
  * Display a listing of the resource.
@@ -1339,7 +1339,7 @@ if($response['result'] === 'success'){
         $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
         $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
 
-        $response = Http::get('https://c.education.zenhosting.tn/includes/api.php', [
+        $response = Http::get('https://c.education.Company.tn/includes/api.php', [
 
 
             'username' => $username_client,
@@ -1385,7 +1385,7 @@ if($response['result'] === 'success'){
         $response = $this->ClientConnectWH($request, $whdata);
         return $response;
 //        $api = new DirectAdmin;
-//        $domain = 'domaine.zenhosting.app';
+//        $domain = 'domaine.Company.app';
 //        http://51.38.16.218:2222/
 //        $api->connect('http://' . '151.80.250.161', '2222');
 //        //    $api->connect('https://' .$domain);

@@ -214,12 +214,12 @@ class CrudDemandeController extends Controller
             'email' =>$request->email,
         ];
 //
-//        Mail::to('riadh@zenhosting.pro')->send(new BacancyMail($body));
+//        Mail::to('email@email.com')->send(new BacancyMail($body));
         $beautymail = app()->make(Beautymail::class);
         $beautymail->send('emails.processed',  ["data"=>$body], function($message) use($body)
         {
             $message
-                ->from('riadh@zenhosting.pro','Zenhosting')
+                ->from('email@email.com','Company')
                 ->to( $body['email'], $body['name'])
                 ->subject('Inscription réussie!');
         });
@@ -411,7 +411,7 @@ class CrudDemandeController extends Controller
                 $beautymail = app()->make(Beautymail::class);
                 $beautymail->send('emails.welcome',  ["data" => $body], function ($message) use ($body) {
                     $message
-                        ->from('riadh@zenhosting.pro', 'Zenhosting')
+                        ->from('email@email.com', 'Company')
                         ->to($body['email'], $body['name'])
                         ->subject('Candidature acceptée!');
                 });
@@ -449,7 +449,7 @@ class CrudDemandeController extends Controller
         $beautymail->send('emails.rejected',  ["data"=>$body], function($message) use($body)
         {
             $message
-                ->from('riadh@zenhosting.pro','Zenhosting')
+                ->from('email@email.com','Company')
                 ->to( $body['email'], $body['name'])
                 ->subject('Candidature refusée!');
         });

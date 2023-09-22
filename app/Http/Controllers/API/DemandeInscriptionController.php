@@ -34,7 +34,7 @@ class DemandeInscriptionController extends Controller
     public $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
     public $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
     public $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
-    public $url = 'https://c.education.zenhosting.tn/includes/api.php';
+    public $url = 'https://c.education.Company.tn/includes/api.php';
     /**
      * Connect to WH.
      *
@@ -227,7 +227,7 @@ class DemandeInscriptionController extends Controller
                 $beautymail->send('emails.welcome',  ["data"=>$body], function($message) use($body)
                 {
                     $message
-                        ->from('riadh@zenhosting.pro','Zenhosting')
+                        ->from('email@email.com','Company')
                         ->to( $body['email'], $body['name'])
                         ->subject('Candidature acceptée!');
                 });
@@ -286,7 +286,7 @@ class DemandeInscriptionController extends Controller
                 $beautymail->send('emails.rejected',  ["data"=>$body], function($message) use($body)
                 {
                     $message
-                        ->from('riadh@zenhosting.pro','Zenhosting')
+                        ->from('email@email.com','Company')
                         ->to( $body['email'], $body['name'])
                         ->subject('Candidature refusée!');
                 });
@@ -444,12 +444,12 @@ class DemandeInscriptionController extends Controller
             'email' =>$request->email,
         ];
 //
-//        Mail::to('riadh@zenhosting.pro')->send(new BacancyMail($body));
+//        Mail::to('email@email.com')->send(new BacancyMail($body));
         $beautymail = app()->make(Beautymail::class);
         $beautymail->send('emails.processed',  ["data"=>$body], function($message) use($body)
         {
             $message
-                ->from('riadh@zenhosting.pro','Zenhosting')
+                ->from('email@email.com','Company')
                 ->to( $body['email'], $body['name'])
                 ->subject('Inscription réussie!');
         });
@@ -684,10 +684,10 @@ class DemandeInscriptionController extends Controller
                 'domain' => $project->domaine,
                 'paymentmethod' => 'mailin',
                 'dnsmanagement' => 1,
-                'nameserver1' => 'dns1.zenhosting.info',
-                'nameserver2' => 'dns2.zenhosting.info',
-                'nameserver3' => 'dns3.zenhosting.info',
-                'nameserver4' => 'dns4.zenhosting.info',
+                'nameserver1' => 'dns1.Company.info',
+                'nameserver2' => 'dns2.Company.info',
+                'nameserver3' => 'dns3.Company.info',
+                'nameserver4' => 'dns4.Company.info',
 
                 'responsetype' => 'json',
 
@@ -1008,7 +1008,7 @@ class DemandeInscriptionController extends Controller
         $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
         $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
         $password =  Str::random(10);
-        $response = Http::get('https://c.education.zenhosting.tn/includes/api.php', [
+        $response = Http::get('https://c.education.Company.tn/includes/api.php', [
 
 
             'username' => $username_client,
@@ -1024,7 +1024,7 @@ class DemandeInscriptionController extends Controller
 
         ]);
         if($response){
-            $response2 = Http::get('https://c.education.zenhosting.tn/includes/api.php', [
+            $response2 = Http::get('https://c.education.Company.tn/includes/api.php', [
 
                 'action' => 'AddClient',
                 'username' => $username_client,
@@ -1048,7 +1048,7 @@ class DemandeInscriptionController extends Controller
             ]);
 
             if($response2){
-                $response3 = Http::get('https://c.education.zenhosting.tn/includes/api.php', [
+                $response3 = Http::get('https://c.education.Company.tn/includes/api.php', [
 
                     'action' => 'AddOrder',
                     'username' => $username_client,
@@ -1059,10 +1059,10 @@ class DemandeInscriptionController extends Controller
                     'domain' => $Demande->domaine,
                     'paymentmethod' => 'mailin',
                     'dnsmanagement' => 1,
-                    'nameserver1' => 'dns1.zenhosting.info',
-                    'nameserver2' => 'dns2.zenhosting.info',
-                    'nameserver3' => 'dns3.zenhosting.info',
-                    'nameserver4' => 'dns4.zenhosting.info',
+                    'nameserver1' => 'dns1.Company.info',
+                    'nameserver2' => 'dns2.Company.info',
+                    'nameserver3' => 'dns3.Company.info',
+                    'nameserver4' => 'dns4.Company.info',
 
                     'responsetype' => 'json',
 
@@ -1151,8 +1151,8 @@ class DemandeInscriptionController extends Controller
             $beautymail->send('emails.custom',  ["data"=>$body], function($message) use($subject, $nom, $email, $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
-                    ->to('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
+                    ->to('email@email.com','Company')
                     ->subject($subject);
             });
             }
@@ -1166,8 +1166,8 @@ class DemandeInscriptionController extends Controller
             $beautymail->send('emails.welcome',  ["data"=>$body], function($message) use($subject, $nom, $email, $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
-                    ->to('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
+                    ->to('email@email.com','Company')
                     ->subject($subject);
             });
         }
@@ -1182,8 +1182,8 @@ class DemandeInscriptionController extends Controller
                 $beautymail->send('emails.verified',  ["data"=>$body], function($message) use($subject, $nom, $email, $body)
                 {
                     $message
-                        ->from('riadh@zenhosting.pro','Zenhosting')
-                        ->to('riadh@zenhosting.pro','Zenhosting')
+                        ->from('email@email.com','Company')
+                        ->to('email@email.com','Company')
                         ->subject($subject);
                 });
             }
@@ -1197,8 +1197,8 @@ class DemandeInscriptionController extends Controller
                 $beautymail->send('emails.accepted',  ["data"=>$body], function($message) use($subject, $nom, $email, $body)
                 {
                     $message
-                        ->from('riadh@zenhosting.pro','Zenhosting')
-                        ->to('riadh@zenhosting.pro','Zenhosting')
+                        ->from('email@email.com','Company')
+                        ->to('email@email.com','Company')
                         ->subject($subject);
                 });
             }
@@ -1212,8 +1212,8 @@ class DemandeInscriptionController extends Controller
                 $beautymail->send('emails.rejected',  ["data"=>$body], function($message) use($subject, $nom, $email, $body)
                 {
                     $message
-                        ->from('riadh@zenhosting.pro','Zenhosting')
-                        ->to('riadh@zenhosting.pro','Zenhosting')
+                        ->from('email@email.com','Company')
+                        ->to('email@email.com','Company')
                         ->subject($subject);
                 });
             }

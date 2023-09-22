@@ -52,7 +52,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td class="esd-block-text es-m-txt-l es-p30t es-p20r es-p20l" align="left">
-                                                                <h2 style="color: #333333;">Bienvenue chez Zenhosting</h2>
+                                                                <h2 style="color: #333333;">Bienvenue chez Company</h2>
                                                             </td>
                                                         </tr>
                                                         <tr>

@@ -195,7 +195,7 @@ class GestionDemandeInscriptionController extends Controller
             $beautymail->send('emails.emailupdated',  ["data"=>$body], function($message) use( $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
                     ->to($body['email2'] , $body['name'])
                     ->subject("Mise à jour de l'adresse e-mail");
             });
@@ -252,7 +252,7 @@ class GestionDemandeInscriptionController extends Controller
             $beautymail->send('emails.passwordupdated',  ["data"=>$body], function($message) use( $body)
             {
                 $message
-                    ->from('riadh@zenhosting.pro','Zenhosting')
+                    ->from('email@email.com','Company')
                     ->to($body['email'] , $body['name'])
                     ->subject("Mot de passe mis à jour");
             });

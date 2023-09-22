@@ -92,12 +92,12 @@ class AdministrateurController extends Controller
             'emailTitle'=>'Compte administrateur'
         ];
 //
-//        Mail::to('riadh@zenhosting.pro')->send(new BacancyMail($body));
+//        Mail::to('email@email.com')->send(new BacancyMail($body));
         $beautymail = app()->make(Beautymail::class);
         $beautymail->send('emails.custom',  ["data"=>$body], function($message) use($body)
         {
             $message
-                ->from('riadh@zenhosting.pro','Zenhosting')
+                ->from('email@email.com','Company')
                 ->to( $body['email'], $body['name'])
                 ->subject('Compte administrateur créé!');
         });
@@ -176,13 +176,13 @@ class AdministrateurController extends Controller
             'emailTitle'=>$request->demande_status
         ];
 //
-//        Mail::to('riadh@zenhosting.pro')->send(new BacancyMail($body));
+//        Mail::to('email@email.com')->send(new BacancyMail($body));
         $beautymail = app()->make(Beautymail::class);
         $beautymail->send('emails.custom',  ["data"=>$body], function($message) use($body)
         {
             $message
-                ->from('riadh@zenhosting.pro','Zenhosting')
-                ->to('riadh@zenhosting.pro', 'John Smith')
+                ->from('email@email.com','Company')
+                ->to('email@email.com', 'John Smith')
                 ->subject('Mise a jour réussie!');
         });
 
