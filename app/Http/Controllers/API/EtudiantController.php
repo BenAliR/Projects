@@ -29,9 +29,9 @@ use stdClass;
 class EtudiantController extends Controller
 {
     use ApiResponser;
-     public $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
-    public $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
-    public $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
+     public $username_client = 'key1';
+    public $password_client = 'key2';
+    public $accesskey = 'accesskey';
     public $url = 'https://c.education.Company.tn/includes/api.php';
 
     /**
@@ -1335,9 +1335,9 @@ if($response['result'] === 'success'){
      */
     public function UpdateClient(Request $request)
     {
-        $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
-        $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
-        $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
+        $username_client = 'key1';
+        $password_client = 'key2';
+        $accesskey = 'accesskey';
 
         $response = Http::get('https://c.education.Company.tn/includes/api.php', [
 
@@ -1366,9 +1366,9 @@ if($response['result'] === 'success'){
      */
     public function ClientLoginDirectAdmin(Request $request)
     {
-        $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
-        $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
-        $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
+        $username_client = 'key1';
+        $password_client = 'key2';
+        $accesskey = 'accesskey';
 
         $whdata = [
 

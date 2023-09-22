@@ -31,9 +31,9 @@ use Snowfire\Beautymail\Beautymail;
 class DemandeInscriptionController extends Controller
 {
     use ApiResponser;
-    public $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
-    public $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
-    public $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
+    public $username_client = 'key1';
+    public $password_client = 'key2';
+    public $accesskey = 'accesskey';
     public $url = 'https://c.education.Company.tn/includes/api.php';
     /**
      * Connect to WH.
@@ -1004,9 +1004,9 @@ class DemandeInscriptionController extends Controller
             $response = ["message" =>"Demande n'existe pas"];
             return response($response, 422);
         }
-        $username_client = 'grapYDri06nLT1iM8msLSOCijYBxyyA3';
-        $password_client = '1ygwi3aBAsyuDGYKxV1r0rBgfnXw4aBZ';
-        $accesskey = 'zenLSbUtPDMpw9b7a6zu67h5n8ksp82Cqf62utYHSpxfqeducation';
+        $username_client = 'key1';
+        $password_client = 'key2';
+        $accesskey = 'accesskey';
         $password =  Str::random(10);
         $response = Http::get('https://c.education.Company.tn/includes/api.php', [
 
